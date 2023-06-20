@@ -1,0 +1,199 @@
+p,h1,h2,h3{
+    color: #DAFEFB;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+main{
+    display: flex;
+    background-image: url("../img/2018 poster.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    align-content: center;
+    justify-content: center;
+    height: 1420px;
+    width: 720px;
+}
+main > div > p:nth-child(1){
+    position: absolute;
+    top:10px;
+    left:750px;
+}
+main > div > p:nth-child(2){
+    position: absolute;
+    top:35px;
+    left:780px;
+    font-size: 8px;
+}
+main > div > p:nth-child(3){
+    position: absolute;
+    top:38px;
+    left:750px;
+}
+main > section > img{
+    position: absolute;
+    top: 175px;
+    left: 620px;
+}
+main >section >h1{
+    position: absolute;
+    top: 375px;
+    left:650px;
+    letter-spacing:8px;
+}
+
+main >section + section + section > div:nth-child(1){
+    height: 100px;
+    width: 720px;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    top :1300px;
+    left: 500px;
+}
+main >section + section + section > div:nth-child(1) > p:nth-child(odd){
+    font-size: 5px;
+    margin:5px;
+    justify-content: center;
+    align-self: baseline;
+    color:#889498;
+}
+
+main >section + section + section > div:nth-child(1) > p:nth-child(even){
+    font-size: 10px;
+    align-self: baseline;
+    color:#889498;
+
+}
+main >section + section + section > div:nth-child(2){
+    height: 100px;
+    width: 720px;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    top :1315px;
+    left: 500px;
+}
+main >section + section + section > div:nth-child(2) > p:nth-child(odd){
+    font-size: 5px;
+    margin:5px;
+    justify-content: center;
+    align-self: baseline;
+    color:#889498;
+}
+
+main >section + section + section > div:nth-child(2) > p:nth-child(even){
+    font-size: 10px;
+    align-self: baseline;
+    color:#889498;
+}
+main >section + section + section > div:nth-child(3){
+    height: 100px;
+    width: 720px;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    top :1330px;
+    left: 500px;
+}
+main >section + section + section > div:nth-child(3) > p:nth-child(odd){
+    font-size: 5px;
+    margin:5px;
+    justify-content: center;
+    align-self: baseline;
+    color:#889498;
+}
+
+main >section + section + section > div:nth-child(3) > p:nth-child(even){
+    font-size: 10px;
+    align-self: baseline;
+    color:#889498;
+}
+main >section + section + section > div:nth-child(4){
+    height: 100px;
+    width: 720px;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    top :1345px;
+    left: 500px;
+}
+main >section + section + section > div:nth-child(4) > p:nth-child(odd){
+    font-size: 5px;
+    margin:5px;
+    justify-content: center;
+    align-self: baseline;
+    color:#889498;
+}
+
+main >section + section + section > div:nth-child(4) > p:nth-child(even){
+    font-size: 10px;
+    align-self: baseline;
+    color:#889498;
+}
+main >section + section + section > div:nth-child(5) > a{
+    position: absolute;
+    top: 1340px;
+    left: 540px;
+}
+main >section + section + section > div:nth-child(5) > a > img{
+    height: 40px;
+    width: 40px;
+}
+main >section + section + section > div:nth-child(5) >  h3{
+    position: absolute;
+    top: 1370px;
+    left:740px;
+    color:#889498;
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+main >section + section + section > div:nth-child(5) > p{
+    position: absolute;
+    top: 1374px;
+    left:870px;
+    color:#889498;
+    font-size: 8px;
+    letter-spacing: 3px;
+}
+main > section + section > div:nth-child(3){
+    position: absolute;
+    top: 1265px;
+    left: 800px;
+    font-size: 10px;
+}
+main > section + section > div:nth-child(4){
+    position: absolute;
+    top: 1275px;
+    left: 660px;
+    font-size: 15px;
+    justify-content: center;
+}
+main > section + section > div:nth-child(2){
+    position: absolute;
+    top: 1230px;
+    left: 735px;
+    font-size: 18px;
+    justify-content: center;
+}
+main > section + section > div:nth-child(1) > h2{
+    position: absolute;
+    top: 1225px;
+    left: 779px;
+    font-size: 10px;
+    justify-content: center;
+    font-weight: normal;
+}
+aside{
+    position: absolute;
+    top:1450px;
+    left:800px;
+    display: flex;
+    align-content:center;
+}
